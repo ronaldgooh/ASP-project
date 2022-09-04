@@ -1,0 +1,68 @@
+.job-listings-title {
+    font-size:1em;
+    margin:1.5em 0 1.5em 0;
+}
+
+.ongoing-joblist {
+    align-items:center;
+}
+
+.show-board {
+    font-weight:700;
+    font-size:0.9em;
+    display:inline-block;
+}
+
+.arrow {
+    margin:0 0 0 1em;
+    border:solid black;
+    border-width:0 3px 3px 0;
+    display:inline-block;
+    padding:3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.search-listings {
+    align-items:center;
+    margin:1.5em 0 0.5em 0;
+}
+
+.search-text {
+    font-weight:700;
+}
+
+#filter {
+    width:20px;
+    height:20px;
+    background:url("../../../../images/filter.png") 0 0 no-repeat; 
+    background-size:contain;
+    display:block;
+    margin:0 0 0 1em;
+}
+
+.search-res-listings {
+    margin:0 0 0.5em 0;
+}
+
+#last-res {
+    margin:0;
+}
+
+#gps {
+    background:url("../../../../images/gps.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+#cost {
+    background:url("../../../../images/cost.png") 0 0 no-repeat; 
+    background-size:contain;
+}
