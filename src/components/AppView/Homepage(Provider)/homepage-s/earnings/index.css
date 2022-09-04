@@ -1,0 +1,40 @@
+.flex {
+    display:flex;
+}
+
+.c {
+    flex-direction:column;
+}
+
+.r {
+    flex-direction:row;
+}
+
+.mid-align {
+    justify-content:center;
+    align-items:center;
+}
+
+.earnings-title {
+    font-size:1em;
+    margin: 1.5em 0 1.5em 0;
+}
+
+#earnings {
+    width:100%;
+    height:150px;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.options-container {
+    margin:1em;
+}
+
+.line-div {
+    margin:0 1.5em 0 1.5em;
+}
+
+#option-1-alt {
+    font-weight:700;
+}

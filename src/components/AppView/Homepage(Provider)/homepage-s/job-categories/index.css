@@ -1,0 +1,92 @@
+.flex {
+    display:flex;
+}
+
+.c {
+    flex-direction:column;
+}
+
+.r {
+    flex-direction:row;
+}
+
+.mid-align {
+    justify-content:center;
+    align-items:center;
+}
+
+.job-group {
+    width:100%;
+    height:auto;
+}
+
+#bottom-row {
+    margin:1em 0 0 0;
+}
+
+.job-group-icon {
+    width:25%;
+    flex:1;
+    height:auto;
+}
+
+.job-group-label {
+    margin:1em 0 0 0;
+}
+
+.icon {
+    width:45px;
+    height:45px;
+}
+
+#cleaning {
+    background:url("../../../../images/cleaning.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+#moving {
+    background:black;
+     background:url("../../../../images/moving.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+#handyman {
+    background:black;
+    background:url("../../../../images/handyman.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+#electrical {
+    background:black;
+     background:url("../../../../images/electrical.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+#locksmith {
+    background:black;
+     background:url("../../../../images/locksmith.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+#plumbing {
+    background:black;
+     background:url("../../../../images/plumbing.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+#washing {
+    background:black;
+     background:url("../../../../images/washing.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+#courier {
+    background:black;
+    background:url("../../../../images/courier.png") 50% 50% no-repeat; 
+    background-size:contain;
+}
+
+.job-categories-title {
+    font-size:1em;
+    margin: 1.5em 0 1.5em 0;
+}
