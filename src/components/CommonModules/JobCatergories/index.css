@@ -1,0 +1,53 @@
+
+.job-categories-box {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    padding-top:200px;
+    
+    @media (max-width: 1000px) {
+        padding: 70px 30px;
+        
+    }
+}
+
+.job-categories-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.job-categories-row{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;
+    grid-gap: 10px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    color: black;
+    justify-items: center;
+    align-items: center;
+
+    @media (max-width: 1000px) {
+        grid-template-columns: repeat(auto-fill,
+                                        minmax(200px,1fr));
+    }
+}
+
+
+.job-categories-icon{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+}
+
+
+
+
