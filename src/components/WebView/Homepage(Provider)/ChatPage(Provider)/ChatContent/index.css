@@ -1,0 +1,223 @@
+/*--------- Chat Box -------*/
+
+.chat-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 175px;
+    width: 100%;
+    height: auto;
+}
+
+/*-------------------------- Conatiner 1 -----------------*/
+
+.chat-container{
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.message-search-box{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 25%;
+    height: auto;
+}
+
+.box{
+    width: 330px;
+    height: 30px;
+}
+
+/*------- Chat Box IDs --------*/
+
+.chat-container{
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.message-search-box{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 25%;
+    height: 100px;
+}
+
+
+.box{
+    width: 330px;
+    height: 30px;
+}
+
+/*------- Chat Box IDs --------*/
+
+.message-chat-id{
+    padding-top: 20%;
+    width: 100%;
+    height: auto;
+}
+
+.message-box{
+    display: grid;
+    grid-template-columns: 100px 200px 100px;
+    grid-template-rows: 50px 50px 50px;
+    border: 1px solid;
+    width: 100%;
+    height: 160px
+}
+
+.chat-profile{
+    grid-area: 1/ 1/ span 1/ span 1;
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+.chat-profile img{
+    width: 60px;
+}
+
+.company-name{
+    grid-area: 1/ 2/ span 1/ span 2;
+    width: 100%;
+    height: auto    ;
+}
+
+.job-title{
+    grid-area: 2/ 2/ span 1/ span 2;
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    grid-area: 3/ 2/ span 1/ span 2;
+    width: 100%;
+    height: auto;
+}
+
+.chat-icon{
+    grid-area: 1/ 4/ span 1/ span 1;
+    padding-top: 30px;
+    width: 30px;
+    height: 10px; 
+}
+
+.chat-icon img{
+    width: 60px;
+}
+
+/*-------------------------- Container 2 -----------------------*/
+
+.chat-container-two{
+    border: 1px solid;
+    width: 100%;
+    height: auto;
+}
+
+/*-------- Chat information ------------*/
+
+.chat-details{
+    display: grid;
+    grid-template-columns: 100px 700px 230px; 
+    grid-template-rows: 40px 40px 40px;
+    border: 1px solid;
+    width: 100%;
+    height: 100px;
+}
+
+.chatProfile{
+    padding: 10px;
+    width: 60px;
+}
+
+.chat-detail-profile{
+    grid-area: 1/ 1/ span 3/ span 1;
+    width: 30px;
+    padding: 10px;
+}
+
+.chat-company{
+    grid-area: 1/ 2/ span 1/ span 2;
+    width: 600px;
+}
+
+.chat-info {
+    grid-area: 2/ 2/ span 2/ span 2;
+    width: 600px;
+}
+
+.space{
+    width: 10px;
+    height: auto;
+    display: inline-block;
+}
+
+.job-status{
+    grid-area: 2/ 3/ span 3/ span 3;
+    padding: 10px;
+    margin: auto;
+}
+
+/*-------- Chat Box ------------*/
+
+.chat-box-container{
+    display: grid;  
+    grid-template-columns: 100px 300px 335px 100px; 
+    grid-template-rows: 200px 100px 100px 100px;
+    border: 1px solid;
+    width: 100%;
+    height: 500px;
+}
+
+.first-user{
+    grid-area: 2/ 1/ span 2/ span 1;
+}
+
+.first-user img{
+    padding: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.first-user-chat{
+    grid-area: 2/ 2/ span 3/ span 2;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 600px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+.second-user-chat{
+    grid-area: 3/ 4/ span 3/ span 4;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+.text-box{
+    grid-area: 4/ 1/ span 4/ span 4;
+    width: 1200px;
+    height: 105px;
+    border: 1px solid;
+}
+
+.text-box-text{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
