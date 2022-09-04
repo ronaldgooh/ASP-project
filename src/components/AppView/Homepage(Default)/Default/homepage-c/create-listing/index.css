@@ -1,0 +1,84 @@
+.flex {
+    display:flex;
+}
+
+.c {
+    flex-direction:column;
+}
+
+.r {
+    flex-direction:row;
+}
+
+.mid-align {
+    justify-content:center;
+    align-items:center;
+}
+
+.posted-requests {
+    width:100%;
+    height:80px;
+    align-items:center;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.request-content-container {
+    align-items:center;
+}
+
+.add {
+    width:30px;
+    height:30px;
+    background:black;
+    /* background:url("/img/plus.png") 45% 45% no-repeat; */
+    background-size:60%;
+    border:2px solid black;
+    border-radius:30px;
+    margin:1.5em;
+}
+
+.create-listing {
+    width:100%;
+    height:100vh;
+    background:white;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    overflow:scroll;
+    box-sizing:border-box;
+}
+
+#close-button {
+    margin:0;
+}
+
+#job-category {
+    padding:0.3em;
+}
+
+.dropdowns {
+    align-items:start;
+}
+
+.dropdowns-labels {
+    margin:1em 0 0.5em 0;
+}
+
+#job-start-date {
+    margin:0 0 0.5em 0;
+}
+
+#addi-text {
+    width:100%;
+    height:120px;
+    padding:0.5em;
+    margin:0 0 0.5em 0;
+    box-sizing:border-box;
+}
+
+.form-checkbox {
+    width:15px;
+    height:15px;
+}

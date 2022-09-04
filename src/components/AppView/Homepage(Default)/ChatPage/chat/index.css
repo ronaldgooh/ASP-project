@@ -1,0 +1,39 @@
+
+h1 { 
+    margin:1.5em 0 1.5em 0;
+}
+
+p {
+    margin:0;
+    padding:0;
+}
+
+.flex {
+    display:flex;
+}
+
+.c {
+    flex-direction:column;
+}
+
+.r {
+    flex-direction:row;
+}
+
+.mid-align {
+    justify-content:center;
+    align-items:center;
+}
+
+.text-content {
+    align-items:start;
+    padding:1em;
+    flex:1;
+}
+
+.message-box {
+    height:140px;
+    background:white;
+    border:1px solid black;
+    border-radius:5px;
+}
