@@ -1,0 +1,65 @@
+.flex {
+    display:flex;
+}
+
+.c {
+    flex-direction:column;
+}
+
+.r {
+    flex-direction:row;
+}
+
+.mid-align {
+    justify-content:center;
+    align-items:center;
+}
+
+.create-listing {
+    width:100%;
+    height:100vh;
+    background:white;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    overflow:scroll;
+    box-sizing:border-box;
+}
+
+.create-job-listing-title {
+    font-size:1em;
+    margin:1.5em 0 1.5em 0;
+}
+
+.create-listing-form {
+    margin:0;
+}
+
+.dropdown-labels {
+    margin:1em 0 0.5em 0;
+}
+
+#job-start-date {
+    margin:0 0 0.5em 0;
+}
+
+#addi-text {
+    width:100%;
+    height:120px;
+    padding:0.5em;
+    margin:0 0 0.5em 0;
+    box-sizing:border-box;
+}
+
+.checkbox-labels {
+    padding: 0.5em 1em 0.5em 0;
+}
+
+#post-listing {
+    margin: 1em 0 0 0;
+    box-sizing:border-box;
+    padding:5px 8px 5px 8px;
+    border:1px solid black;
+    border-radius: 5px;
+}
