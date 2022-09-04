@@ -1,0 +1,71 @@
+.FormBox
+{
+    display: block;
+    padding: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: white;
+    color: black;
+    bottom: 0;
+    width: 100%;
+}
+
+.FormContainer
+{
+    border: 1px solid black;
+    padding: 20px;
+    width:50%;
+}
+
+
+.Label
+{
+    margin-bottom: 0.5em;
+	color: black;
+    display: block;
+}
+        
+.Input
+{
+    padding: 0.5em;
+	color: black;
+	background: papayawhip;
+	border-radius: 3px;
+	width: 90%;
+	margin-bottom: 0.5em;
+}
+        
+.Message
+{
+	margin-bottom: 0.5em;
+	color: palevioletred;
+    display: block;
+}
+        
+.Button
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+        
+.Title
+{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+        
+.Button2
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
