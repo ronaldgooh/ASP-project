@@ -1,0 +1,130 @@
+/*----------------------------------Navbar First Row -----------------------------------*/ 
+.nav-bar-box{
+    background: #D4DCF9;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat (1, 1fr);
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    z-index: 3;
+    min-height: 50px;
+
+    @media (max-width: 1000px) {
+        padding: 70px 30px;
+        max-width: 70%;
+    }    
+
+}
+
+.nav-bar-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding-left: 200px;
+    width: 250px;
+    height: 20px;
+}
+
+.nav-bar-container-two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    width: 400px;
+    height: 50px;
+}
+
+/*----------------------------------Navbar Second Row -----------------------------------*/ 
+.nav-bar-box-two{
+    background: #D4DCF9;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat (1, 1fr);
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    min-height: 175px;
+
+    @media (max-width: 1000px) {
+        padding: 70px 30px;
+        max-width: 70%;
+    }    
+}
+
+.nav-bar-container-three{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    padding-left: 200px;
+    padding-top: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+.logo{
+    display: block;
+    padding: 8px 0;
+}
+
+.logo img{
+    display: block;
+    margin: 5px auto;
+    width: 75px;
+    height: auto;
+}
+
+
+.nav-bar-container-fourth{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    padding: 20px;
+    padding-top: 75px;
+    width: 900px;
+    height: 50px;
+}
+
+input.search{
+    width: 90%;
+    height: 50px;
+}
+
+.search-btn{
+    width: 5%;
+    height: 55px;
+}
+
+.imgTwo{
+    display: block;
+    margin: 8px auto;
+    padding-top: 75px;
+    padding-right: 150px;
+    width: 50px;
+    height: auto;
+}
+
+/*----------------------------------Navbar Shared Grid-----------------------------------*/ 
+.nav-bar-grid{
+    padding: 20px 0px;
+    font-size: 15px;
+    text-align: center;
+    
+
+}
+
+.nav-bar-grid a{
+    text-decoration: none;
+    font-style: italic;
+    transition: 0.3s ease;
+    color: black;
+
+}
+
+.nav-bar-grid a:visited{
+    color: black;
+}
+
+.nav-bar-grid a:hover{
+    cursor: pointer;
+    font-size: 18px;
+}

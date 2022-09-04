@@ -1,0 +1,138 @@
+.CreateListingBox
+{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    bottom: 0;
+    width: 100%;
+
+
+@media (max-width: 1000px) {
+	padding: 70px 30px;}
+}
+
+.CreateListingBox input
+{
+    border-radius: 10px;
+}
+
+.CreateListingContainer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1000px;
+	margin:10%;
+    font-size: 20px;
+}
+
+
+
+.CreateListingBorder
+{
+    border: 1px solid;
+    border-radius:40px;
+}
+
+
+.CreateListingGrid
+{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows:auto;
+
+    grid-gap: 0px;
+    color: black;
+    padding: 10px; 
+    text-decoration: none;
+    text-align: center;
+    width: 180px;
+    font-size: 20px;
+}
+
+
+.CreateListingTitle
+{
+    font-size: 30px;
+    font-weight: bold;
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin-top: 10px;
+    
+}
+
+.CreateListingDate
+{
+    font-size: 30px;
+    font-weight: bold;
+    grid-area: 1 / 2 / span 1 / span 1;
+    margin-top: 10px;
+}
+.CreateListingCategory
+{
+    font-size: 30px;
+    font-weight: bold;
+    grid-area: 2 / 1 / span 1 / span 1 ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
+}
+
+.CreateListingPrice
+{
+    font-size: 30px;
+    font-weight: bold;
+    grid-area: 2 / 2 / span 1 / span 1 ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+.CreateListingImage
+{
+    font-size: 30px;
+    font-weight: bold;
+    grid-area: 3 / 1 / span 1 / span 2 ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+
+}
+
+.CreateListingImage a
+{
+    border: 1px solid;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.CreateListingDescription
+{
+    font-size: 30px;
+    font-weight: bold;
+    grid-area: 4 / 1 / span 1 / span 2 ;
+    margin:20px 0px 30px 35px;
+    
+}
+
+.descriptionInput
+{
+    align-self: center;
+    width: 100%;
+    height:60px;
+}
+
+.CreateListingButton
+{
+    grid-area: 5 / 1 / span 1 / span 2;
+
+}
+.CreateListingButton button
+{
+    text-align: center;
+    border-radius: 50px;
+    padding: 20px;
+}

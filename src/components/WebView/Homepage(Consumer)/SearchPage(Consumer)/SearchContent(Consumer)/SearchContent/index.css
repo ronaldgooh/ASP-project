@@ -1,0 +1,167 @@
+/*------------------------------------------ Search Main Box ----------------------------------*/
+.SearchBox{
+    padding-top: 175px;
+    width: 100%;
+    height: auto;
+}
+
+/*---------------------- Container One ---------------------*/
+
+.SearchContainerOne{
+    display: grid;
+    grid-template-columns: 350px 100px 200px 150px 200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.SearchFilterTitle{
+    grid-area: 1/ 2/ span 1/ span 1;
+    width: 400px;
+    padding-left: 100px;
+}
+
+
+.SearchFilterOne{
+    grid-area: 2/ 3/ span 1/ span 1;
+    margin: 10px;
+    text-align: center;
+    align-self: right;
+    justify-self: right;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 180px;
+}
+
+.SearchFilterTwo{
+    grid-area: 2/ 4/ span 1/ span 1;
+    margin: 10px;
+    width: 70px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.SearchFilterThree{
+    grid-area: 2/ 5/ span 2/ span 1;
+    margin: 10px;
+    width: 180px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.SearchFilterFour{
+    grid-area: 2/ 6/ span 2/ span 4;
+    margin: 10px;
+    width: 140px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid;
+
+}
+
+.SearchFilterFive{
+    grid-area: 2/ 4/ span 2/ span 5;
+    margin: 10px;
+    width: 160px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid;
+
+}
+
+
+/*---------------------- Container Two ---------------------*/
+
+.SearchContainerTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.SearchJobGridBox{
+    border: solid;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 80px;
+    grid-area: 1/ 1/ span 4/ span 1;
+}
+
+.SearchJobRow{
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.SearchJobRow a{
+    text-decoration: none;
+}
+
+.SearchJobTitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    grid-area: 1/ 2/ span 1/ span 2;
+}
+
+.SearchJobService{
+    border: solid;
+    border-radius: 50px;
+    grid-area: 2/ 2/ span 1/ span 1;
+    margin: 10px;
+}
+
+.SearchJobService2{
+    border: solid;
+    border-radius: 50px;
+    grid-area: 2/ 3/ span 1/ span 1;
+    margin: 10px;
+}
+
+.SearchJobDescription{
+    grid-area: 4/ 2/ span 1/ span 2;
+    text-align: left;
+    width: 400px;
+}
+
+.SearchJobListing{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 800px;
+    grid-gap: 0px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 180px;
+    font-size: 20px;
+}
+
+.SearchJobStatus{
+    grid-area: 3/ 2/ span 1/ span 2;
+    margin: 10px;
+    text-align: left;
+}
+
+.SearchJobTimeFrame{
+    grid-area: 1/ 4/ span 1/ span 2;
+}
+
+.SearchJobTimeFrame img{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+

@@ -1,0 +1,69 @@
+.PostedRequestBox
+{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    bottom: 0;
+    width: 100%;
+
+
+@media (max-width: 1000px) {
+	padding: 70px 30px;}
+}
+
+.PostedRequestContainer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1000px;
+	margin: auto;
+    font-size: 20px;
+    
+}
+
+.PostedRequestGridBox
+{
+  
+    padding:20px;
+    margin:20px;
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.PostedRequestRow
+{
+    border: 1px solid;
+    border-radius:50px;
+    margin:5px;
+}
+
+.PostedRequestRow a
+{
+    text-decoration: none;
+
+}
+
+.PostedRequestTitle
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    padding-top:20px;
+    grid-area: 1 / 2 / span 2 / span 2;
+    text-align:left;
+
+    
+}
+
+.PostedRequestListing
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 0px;
+    color: black;
+    padding: 10px; 
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
