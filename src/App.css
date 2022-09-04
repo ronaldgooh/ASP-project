@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    .view-width {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+    .app-width {
+        display: none;
+    }
+}
